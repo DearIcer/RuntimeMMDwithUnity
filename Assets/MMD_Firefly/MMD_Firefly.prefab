@@ -236,6 +236,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 329054216734813739}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4167f3a95090d26408cdcf1a01fb71cb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5015874142762241768}
   m_SourcePrefab: {fileID: 100100000, guid: 4167f3a95090d26408cdcf1a01fb71cb, type: 3}
 --- !u!4 &1277097304073513566 stripped
 Transform:
@@ -271,3 +275,20 @@ MonoBehaviour:
   m_MMDHeadBoneForward: 0
   m_MMDHeadBoneUp: 4
   m_MMDHeadBoneRight: 3
+--- !u!111 &5015874142762241768
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2842047551153845192}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7152629339741576859, guid: 0642c3646a23a9145b9bc32fab047a64,
+    type: 3}
+  m_Animations:
+  - {fileID: 7152629339741576859, guid: 0642c3646a23a9145b9bc32fab047a64, type: 3}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
