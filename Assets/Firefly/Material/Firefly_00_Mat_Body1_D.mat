@@ -63,7 +63,7 @@ Material:
     - _ModelScale: 1
     - _OutlineColor: 0
     - _OutlineNormal: 0
-    - _OutlineWidth: 1
+    - _OutlineWidth: 0.01
     - _OutlineZOffset: 0
     - _PerObjShadowCasterId: -1
     - _RampCoolWarmLerpFactor: 1
