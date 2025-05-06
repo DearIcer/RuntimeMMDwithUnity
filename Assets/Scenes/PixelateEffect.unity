@@ -196,7 +196,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 680057997}
-  m_LocalRotation: {x: 0.0000000034399212, y: 0.9999991, z: -0.0013516131, w: 0.0000025450465}
+  m_LocalRotation: {x: 0.0000000033934573, y: 0.9999991, z: -0.001351633, w: 0.000002510633}
   m_LocalPosition: {x: -0.000013375427, y: 1.12, z: 2.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -283,7 +283,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 759309911}
-  m_LocalRotation: {x: 0.0000000034399212, y: 0.9999991, z: -0.0013516131, w: 0.0000025450465}
+  m_LocalRotation: {x: 0.0000000033934573, y: 0.9999991, z: -0.001351633, w: 0.000002510633}
   m_LocalPosition: {x: -0.000013375427, y: 1.12, z: 2.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -333,14 +333,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 759309911}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d39b30e28f1f18040b1b40a5b7132d25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   pixelateMaterial: {fileID: 2100000, guid: 016434b957e59384b9d78d46781cbc98, type: 2}
   pixelSize: 4
-  colorDepth: 2
+  colorDepth: 4
 --- !u!1001 &868807879
 PrefabInstance:
   m_ObjectHideFlags: 0
