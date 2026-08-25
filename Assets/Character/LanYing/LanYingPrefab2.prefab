@@ -28535,6 +28535,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2749521748463330965}
   - component: {fileID: 723133960462512232}
+  - component: {fileID: 823451006345670123}
   m_Layer: 0
   m_Name: LanYingPrefab2
   m_TagString: Untagged
@@ -28634,6 +28635,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &823451006345670123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3270620323039312943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e2b8be193c047d5a1578f3c0d77cbfe, type: 3}
+  m_Name: ''
+  m_EditorClassIdentifier: ''
+  targetCamera: {fileID: 0}
+  shadowLight: {fileID: 0}
+  faceRenderer: {fileID: 0}
+  fringeRenderers: []
+  casterTemplate: {fileID: 2100000, guid: c9dff1f4d29d4aaf90d73f7f50dc9643, type: 2}
+  receiverTemplate: {fileID: 2100000, guid: 4fe4320b6ec7453fb75e0a314c10c2ee, type: 2}
+  resolution: 512
+  projectionExtent: 0.28
+  projectionDepth: 0.8
+  depthBias: 0.004
+  softness: 1.2
+  strength: 0.34
+  shadowTint: {r: 0.86, g: 0.87, b: 0.91, a: 1}
 --- !u!95 &723133960462512232
 Animator:
   serializedVersion: 5
