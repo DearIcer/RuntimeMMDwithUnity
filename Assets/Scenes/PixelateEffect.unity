@@ -245,7 +245,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
+  m_BackGroundColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -371,11 +371,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: ''
   toneMappingMaterial: {fileID: 2100000, guid: f1eab1cd7e8c4a77b94ae8cc63b83c20, type: 2}
   exposure: 0
-  whitePoint: 4
-  curveStrength: 0.35
+  knee: 0.85
+  whitePoint: 1
+  highlightDesaturation: 0.15
   contrast: 1
   saturation: 1
-  temperature: 0
+  temperature: 0.15
   tint: 0
 --- !u!1001 &868807879
 PrefabInstance:
@@ -1070,7 +1071,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30

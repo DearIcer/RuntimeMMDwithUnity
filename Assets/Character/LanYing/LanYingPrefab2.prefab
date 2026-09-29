@@ -28632,6 +28632,7 @@ Transform:
   - {fileID: 2423774474935337219}
   - {fileID: 2423774475141547729}
   - {fileID: 2423774474712052415}
+  - {fileID: 7412093856701234567}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -28642,7 +28643,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3270620323039312943}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5e2b8be193c047d5a1578f3c0d77cbfe, type: 3}
   m_Name: ''
@@ -28660,6 +28661,28 @@ MonoBehaviour:
   softness: 1.2
   strength: 0.34
   shadowTint: {r: 0.86, g: 0.87, b: 0.91, a: 1}
+--- !u!114 &7412093856701234567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3270620323039312943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b3f9c2a4d1e4f8a9c6b2e5d8a1f3c70, type: 3}
+  m_Name: ''
+  m_EditorClassIdentifier: ''
+  faceRenderers: []
+  fringeRenderers: []
+  faceNameMarker: "\u984F"
+  fringeNameMarker: "\u9AEA"
+  stencilRef: 128
+  shadowTint: {r: 0.86, g: 0.72, b: 0.74, a: 1}
+  offset: 0.05
+  shadowLight: {fileID: 0}
+  casterTemplate: {fileID: 2100000, guid: 3a7c9e15d6b84f2a9e0c5b7d1a8f4632, type: 2}
+  writerTemplate: {fileID: 2100000, guid: 6f1d8b34e7c94a2d8b5e0f3c9a7d2148, type: 2}
 --- !u!95 &723133960462512232
 Animator:
   serializedVersion: 5
