@@ -19,7 +19,7 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
-  m_LockedProperties: ''
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -32,9 +32,9 @@ Material:
     - _Contrast: 1
     - _Exposure: 0
     - _HighlightDesaturation: 0.15
-    - _Knee: 1
+    - _Knee: 0.85
     - _Saturation: 1
-    - _Temperature: 0
+    - _Temperature: 0.15
     - _Tint: 0
     - _WhitePoint: 1
     m_Colors: []
